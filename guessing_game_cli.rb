@@ -10,12 +10,14 @@ input = gets.chomp
 if input == random_number
 
   puts "You guessed the correct number!"
-  puts "Goodbye!"
-  exit
+
 
 elsif input != random_number
 
 puts "Sorry! The computer guessed #{random_number}"
 
 end
+puts "Goodbye!"
+exit
+
 end
