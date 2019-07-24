@@ -11,7 +11,7 @@ if input == random_number
 
   puts "You guessed the correct number!"
   exit 
-  
+
 end
 
 puts "Sorry! The computer guessed #{random_number}"
